@@ -128,19 +128,6 @@ export function Footer(): JSX.Element {
               ))}
             </ul>
           </div>
-          <div className="col-xs-12 col-md-4 col-lg-3 footer-list">
-            <h3>Test Networks</h3>
-            <ul>
-              {chainSwitchOpts.testnets.map((it) => (
-                <li key={it[0]}>
-                  <a href={it[0]} rel="norefferer" className="footer-link">
-                    {" "}
-                    {it[1]}{" "}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
     </footer>
