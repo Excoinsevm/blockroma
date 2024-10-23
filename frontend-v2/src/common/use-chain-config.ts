@@ -8,10 +8,10 @@ export type ChainConfig = {
 };
 
 export const chainConfig = {
-  chainId: 1213,
-  chainName: "Popcateum",
-  symbol: "POP",
-  rpcUrls: ["https://dataseed.popcateum.org"],
+  chainId: 7171,
+  chainName: "Bitrock",
+  symbol: "BROCK",
+  rpcUrls: ["https://connect.bit-rock.io"],
   decimals: 18,
   networkPath: "",
 };
