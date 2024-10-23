@@ -13,7 +13,7 @@ export const chainConfig = {
   symbol: "BROCK",
   rpcUrls: ["https://connect.bit-rock.io"],
   decimals: 18,
-  networkPath: "",
+  networkPath: "/bitrock/mainnet/",
 };
 
 export function useChainConfig(): ChainConfig {
