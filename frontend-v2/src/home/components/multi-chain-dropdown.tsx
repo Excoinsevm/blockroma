@@ -7,10 +7,8 @@ type Props = {
 
 export const chainSwitchOpts = {
   mainnets: [
-    ["/eth/mainnet/", "Ethereum"],
-    ["/ethw/mainnet/", "ETHW-mainnet"],
+    ["/bitrock/mainnet/", "Bitrock"],
   ],
-  testnets: [["/bmo/testnet/", "BoomMo Chain"]],
 };
 
 export function MultiChainDropdown({ chainName }: Props) {
