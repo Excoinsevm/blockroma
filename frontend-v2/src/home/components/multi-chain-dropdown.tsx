@@ -62,13 +62,7 @@ export function MultiChainDropdown({ chainName }: Props) {
               {it[1]}
             </a>
           ))}
-
-          <a className="dropdown-item header division">Testnets</a>
-          {chainSwitchOpts.testnets.map((it) => (
-            <a className="dropdown-item" key={it[0]} href={it[0]}>
-              {it[1]}
-            </a>
-          ))}
+          
         </div>
       </OutsideClickHandler>
     </li>
